@@ -10,5 +10,5 @@ tsconfig.commonjs.tsbuildinfo
 
 *.sublime-workspace
 .idea
-
+.npm
 .DS_Store

@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci --cache .npm --prefer-offline
+        - npm ci
     build:
       commands:
         - npm run build
@@ -11,6 +11,3 @@ frontend:
     baseDirectory: build/viewer
     files:
       - '**/*'
-  cache:
-    paths:
-      - .npm/**/*
